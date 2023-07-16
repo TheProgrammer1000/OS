@@ -3,7 +3,8 @@
 
 ### TRY IT OUT!
 
-#### With command: nasm -f bin -o test.bin test.asm
+#### With command: 
+### nasm -f bin -o test.bin test.asm
 ### dd status=noxfer conv=notrunc if=test.bin of=test.flp
 ### qemu-system-i386 -fda test.flp
 
